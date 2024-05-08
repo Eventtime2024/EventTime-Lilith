@@ -296,12 +296,19 @@ margin-bottom: 50px;
     padding: 20px ;
     box-sizing: border-box;
     border-bottom: 1px solid #545252;
+    color: #fff;
 }
 input:focus{
     outline: none;
-    background-color: #FFF;
+    background:transparent;
+   
 }
-
+.please{
+    color:red;
+    font-size: 14px;
+    text-align: center;
+    display: none;
+}
 ::-webkit-input-placeholder {  
     color: #fff!important;
     font-weight: 400;
