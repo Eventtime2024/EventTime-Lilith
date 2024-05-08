@@ -1,0 +1,905 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: whisper;
+    src: url("../fonts/ofont.ru_Miama Nueva.ttf");
+}
+@font-face {
+    font-family: font2;
+    src: url("../fonts/insight-melody.ttf");
+}
+@font-face{
+    font-family: font3;
+    src:url("../fonts/1926-font.otf")
+}
+@font-face {
+    font-family: font4;
+    src: url("../fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+img{
+    width: 100%;
+    vertical-align: middle;
+    height: 100%;
+   
+}
+button{
+    outline: none!important;
+    border: none!important;
+}
+.down{
+    width: 30px;
+    height:20px;
+    position: relative;
+    top: 0;
+    animation: anim_down 2s infinite linear;
+}
+.text_center{
+    text-align: center!important;
+    margin-top: 60px!important;
+}
+body{
+    overflow-x: hidden;
+}
+.page{
+    background-image:  url("../img/lilit1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    position: fixed ;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+.girl_img{
+    width: 100%;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.wh100{
+    width: 100%;
+    height: 100vh;
+    padding: 75px 0 75px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calendarr_girl{
+    display: flex;  
+}
+.content1{
+    position: relative;
+    z-index: 10000 ;
+  
+ 
+}
+.girl_img_box{
+    width:400px;
+    height: 400px;
+    background-image:  url("../img/lilit.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    border-radius: 50%;
+    margin-left: 50px;
+    
+}
+ 
+
+.grey{
+    color: rgb(186, 181, 181);
+}
+.calendar{
+    width: 400px;
+    height: 300px;
+    border-collapse: collapse;
+    color: #fff;
+    background-image:  url("../img/hearticon.jpg");
+    background-position: top 144px right 60px;
+    background-repeat: no-repeat;
+    background-size:  70px  ;
+}
+  td{
+    color: #fff;
+    font-weight: 800;
+    font-size: 26px;
+}
+.month{
+font-family: font2;
+text-align: center;
+color: #fff;
+font-size: 30px;
+}
+.section2 p{
+    margin: 0;
+    color: #fff;
+  
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w60{
+    width: 60%;
+   background-color: rgb(0,0,0,0.45) ;
+   padding: 80px;
+   box-sizing: border-box;
+}
+.frends{
+font-size: 36px;
+font-weight: 600;
+text-align: center;
+margin-bottom: 40px!important;
+font-family: whisper;
+}
+.text1{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: whisper;
+    line-height: 2;
+     
+}
+.cafe{
+    font-size: 36px;
+font-weight: 600;
+text-align: center;
+margin-bottom: 40px!important;
+font-family: whisper;
+color:#fff;
+}
+.address{
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    color:#fff;
+    font-style: italic;
+}
+.address2{
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    color:#fff;
+    font-style: italic;
+}
+.address_link{
+    display: flex;
+    text-decoration: none!important;
+    color: #fff!important;
+    font-weight: 600 ;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color:rgb(0,0,0,0.45);  
+
+}
+.address_link:hover{
+    background: #fff;
+    color: #000!important;
+}
+.center{
+   display: flex;
+   justify-content: center;
+}
+.withlove{
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px!important;
+    font-family: whisper;
+    color:#fff;
+    margin:40px 0 20px!important;
+}
+.name{
+font-size: 60px;
+font-weight: 600;
+text-align: center;
+margin-bottom: 40px!important;
+font-family: whisper;
+color:#fff;
+margin: 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-image: url("../img/icon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  cursor: pointer;
+}
+.logo a{
+    width: 100%
+}
+.site{
+    text-decoration: none!important;
+    color: #fff!important;
+    font-family: font2;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.ds_block{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.lastpart{
+    padding: 50px 0;
+}
+.invitetext{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+label{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color:  #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #000;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #000;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #fff;
+}
+.radio-part{
+margin-bottom: 50px;
+}
+.guest{
+    border:none;
+    background:transparent;
+    width: 100%;
+    padding: 20px ;
+    box-sizing: border-box;
+    border-bottom: 1px solid #545252;
+}
+input:focus{
+    outline: none;
+    background-color: #FFF;
+}
+
+::-webkit-input-placeholder {  
+    color: #fff!important;
+    font-weight: 400;
+  }
+  .dsflex{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+@keyframes anim_down {
+    0%{
+        top: 0;
+    }
+    50%{
+        top: 2%;
+    }
+    100%{
+        top: 0;
+    }
+}
+ 
+@media (min-width:1920px) {
+    .down {
+        width: 50px;
+        height: 40px;
+    }
+    .girl_img{
+        padding: 0 150px;
+        justify-content: center;
+    }
+    .calendar{
+        width: 800px;
+        height: 600px;
+        background-position: top 310px right 150px;
+        background-size: 100px;
+    }
+    .month {
+        font-size: 60px;
+    }
+    td {
+        font-size: 40px;
+    }
+    .girl_img_box {
+        width: 900px;
+        height: 900px;
+        margin-left: 200px;
+    }
+    
+    .frends {
+        font-size: 60px;
+    }
+    .text1 {
+        font-size: 36px;
+    }
+    .cafe {
+        font-size: 50px;
+        margin: 60px 0;
+    }
+    .address {
+        font-size: 40px;
+    }
+    .address2 {
+        font-size: 34px;
+    }
+    .address_link{
+    width: 250px;
+    height: 80px;
+    font-size: 28px;     
+}
+   .withlove {
+    font-size: 40px;
+}
+.name {
+    font-size: 95px;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+}
+.site{
+    font-size: 44px;
+}
+.lastpart{
+    padding: 50px 0;
+}
+.invitetext{
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+label{
+    color: #fff;
+    font-size: 28px;
+    margin-left: 20px;
+}
+ 
+.mr40{
+    margin-bottom: 40px;
+}
+.guest{
+   font-size: 26px;
+}
+
+
+}
+@media (min-width:1660px) and (max-width:1920px){
+    .page{
+        background-position:top -200px center;
+    }
+    .girl_img{
+        padding: 0 90px;
+        justify-content: space-between;
+    }
+    .calendar{
+        width: 600px;
+        height: 500px;
+        margin-right: 80px;
+        background-position: top 250px right 99px;
+        background-size: 100px;
+    }
+    .month {
+        font-size: 60px;
+    }
+    td {
+        font-size: 36px;
+    }
+    .girl_img_box {
+        width: 700px;
+        height: 700px;
+    }
+  
+    .frends {
+        font-size: 60px;
+    }
+    .text1 {
+        font-size: 30px;
+    }
+    .cafe {
+        font-size: 50px;
+        margin: 60px 0;
+    }
+    .address {
+        font-size: 40px;
+    }
+    .address2 {
+        font-size: 34px;
+    }
+    .address_link{
+    width: 250px;
+    height: 80px;
+    font-size: 28px;     
+}
+   .withlove {
+    font-size: 40px;
+}
+.name {
+    font-size: 95px;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+}
+.site{
+    font-size: 44px;
+}
+.invitetext{
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+label{
+    color: #fff;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.mr40{
+    margin-bottom: 40px;
+}
+.guest{
+   font-size: 26px;
+}
+
+}
+@media (min-width:1440px) and (max-width:1660px){
+    .girl_img{
+        padding: 0 80px;
+        justify-content: space-between;
+    }
+    .calendar{
+        width: 500px;
+        height: 400px;
+        background-position: top 189px right 73px;
+        background-size: 100px;
+    }
+    .month {
+        font-size: 50px;
+    }
+    td {
+        font-size: 30px;
+    }
+    .girl_img_box {
+        width:600px;
+        height: 600px;
+    }
+    .w60 {
+        width: 65%;
+    }
+    .frends {
+        font-size: 60px;
+    }
+    .text1 {
+        font-size: 26px;
+    }
+    .cafe {
+        font-size: 40px;
+        margin: 60px 0;
+    }
+    .address {
+        font-size: 34px;
+    }
+    .address2 {
+        font-size: 26px;
+    }
+    .address_link{
+    width: 250px;
+    height: 80px;
+    font-size: 26px;     
+}
+   .withlove {
+    font-size: 34px;
+}
+.name {
+    font-size: 80px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.site{
+    font-size: 32px;
+}
+
+.invitetext{
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+label{
+    color: #fff;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.mr40{
+    margin-bottom: 40px;
+}
+.guest{
+   font-size: 22px;
+}
+
+}
+@media(min-width:1024px) and (max-width:1144px){
+    .girl_img{
+        padding: 0 60px;
+        justify-content: space-between;
+    }
+    .calendar{
+        width: 400px;
+        height: 300px;
+        background-position: top 143px right 63px;
+        background-size: 70px;
+    
+    }
+    .month {
+        font-size: 30px;
+    }
+    td {
+        font-size: 20px;
+    }
+    .girl_img_box {
+        width:400px;
+        height: 400px;
+    }
+    .w60 {
+        width: 90%;
+    }
+    .frends {
+        font-size: 40px;
+    }
+    .text1 {
+        font-size: 20px;
+    }
+    .cafe {
+        font-size: 32px;
+        margin: 60px 0;
+    }
+    .address {
+        font-size: 26px;
+    }
+    .address2 {
+        font-size: 24px;
+    }
+    .address_link{
+    width: 180px;
+    height: 40px;
+    font-size: 18px;     
+}
+   .withlove {
+    font-size: 26px;
+}
+.name {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.site{
+    font-size: 32px;
+}
+}
+
+@media(min-width:920px) and (max-width:1024px){
+    .girl_img{
+        padding: 0 50px;
+        justify-content: space-between;
+    }
+    .calendar{
+        width: 300px;
+        height: 250px;
+        background-position: top 125px right 50px;
+        background-size:50px;
+    
+    }
+    .month {
+        font-size: 26px;
+    }
+    td {
+        font-size: 16px;
+    }
+    .girl_img_box {
+        width:370px;
+        height: 370px;
+    }
+    .w60 {
+        width: 90%;
+        padding:60px;
+    }
+    .frends {
+        font-size: 36px;
+    }
+    .text1 {
+        font-size: 20px;
+    }
+    .cafe {
+        font-size: 28px;
+        margin: 60px 0;
+    }
+    .address {
+        font-size: 24px;
+    }
+    .address2 {
+        font-size: 22px;
+    }
+    .address_link{
+    width: 180px;
+    height: 40px;
+    font-size: 18px;     
+}
+   .withlove {
+    font-size: 22px;
+}
+.name {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.site{
+    font-size: 26px;
+}
+.invitetext{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+label{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.mr40{
+    margin-bottom: 40px;
+}
+.guest{
+   font-size:16px;
+}
+
+}
+
+
+@media(min-width:768px) and (max-width:920px){
+    .wh100{
+        padding-bottom: 50px;
+        padding-top: 0;
+        justify-content: center;
+    }
+    .calendarr_girl{
+   flex-direction: column;
+   align-items: center;
+   padding-top: 20px;
+   box-sizing: border-box;
+    }
+    .girl_img{
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+    .calendar{
+        width: 250px;
+        height: 200px;
+        background-position: top 97px right 38px;
+        background-size: 46px;
+        margin-bottom: 20px;
+    
+    }
+    .month {
+        font-size: 24px;
+    }
+    td {
+        font-size: 16px;
+    }
+    .girl_img_box {
+        width:300px;
+        height: 300px;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .w60 {
+        width: 90%;
+        padding:40px;
+    }
+    .frends {
+        font-size: 30px;
+    }
+    .text1 {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .cafe {
+        font-size: 24px;
+        margin: 60px 0;
+    }
+    .address {
+        font-size: 20px;
+    }
+    .address2 {
+        font-size: 20px;
+    }
+    .address_link{
+    width: 120px;
+    height: 30px;
+    font-size: 12px;     
+}
+   .withlove {
+    font-size: 18px;
+}
+.name {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.site{
+    font-size: 20px;
+}
+
+.invitetext{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+label{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.mr40{
+    margin-bottom: 40px;
+}
+.guest{
+   font-size: 14px;
+}
+
+}
+
+@media(min-width:320px) and (max-width:768px){
+    .wh100{
+        padding-bottom: 50px;
+        padding-top: 0;
+        justify-content: flex-start;  
+    }
+    .calendarr_girl{
+   flex-direction: column;
+   align-items: center;
+   padding-top: 60px;
+   box-sizing: border-box;
+    }
+    .calendar{
+        width: 240px;
+        height: 150px;
+        background-position: top 68px right 39px;
+        background-size: 42px;
+        margin-bottom: 20px;
+    }
+    .month {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    td {
+        font-size: 12px;
+    }
+    .girl_img_box {
+        width:200px;
+        height: 200px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .girl_img{
+        padding: 0 20px;
+    }
+    .w60 {
+        width: 100%;
+        padding:20px;
+    }
+    .frends {
+        font-size: 24px;
+    }
+    .text1 {
+        font-size: 14px;
+        text-align: justify;
+    }
+    .cafe {
+        font-size: 20px;
+        margin: 30px 0;
+    }
+    .address {
+        font-size: 18px;
+    }
+    .address2 {
+        font-size: 14px;
+    }
+    .address_link{
+    width: 110px;
+    height: 30px;
+    font-size: 10px;  
+    margin-top: 20px;   
+}
+   .withlove {
+    font-size: 16px;
+    margin: 25px 0 10px !important;
+}
+.name {
+    font-size: 28px;
+    margin-bottom: 20px !important;
+   
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.site{
+    font-size: 16px;
+}
+ .invitetext{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+label{
+    color: #fff;
+    font-size: 14px;
+    margin-left:10px;
+}
+.mr40{
+    margin-bottom: 40px;
+}
+.guest{
+   font-size:14px;
+}
+}
