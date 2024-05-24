@@ -49,9 +49,7 @@ body{
     background-size:  cover;
     position: fixed ;
     width: 100%;
-    height: 100vh;
-    
-    
+    height: 100vh;    
 }
 .girl_img{
     width: 100%;   
@@ -105,7 +103,7 @@ body{
     border-collapse: collapse;
     color: #fff;
     background-image:  url("../img/hearticon.jpg");
-    background-position: top 144px right 60px;
+    background-position: top 45px right 245px;
     background-repeat: no-repeat;
     background-size:  70px  ;
 }
@@ -342,7 +340,7 @@ input:focus{
     .calendar{
         width: 800px;
         height: 600px;
-        background-position: top 310px right 150px;
+       background-position: top 80px right 371px;
         background-size: 100px;
     }
     .month {
@@ -427,7 +425,7 @@ label{
         width: 600px;
         height: 500px;
         margin-right: 80px;
-        background-position: top 250px right 99px;
+        background-position: top 80px right 371px;
         background-size: 100px;
     }
     .month {
@@ -503,7 +501,7 @@ label{
     .calendar{
         width: 500px;
         height: 400px;
-        background-position: top 189px right 73px;
+        background-position: top 60px right 300px;
         background-size: 100px;
     }
     .month {
@@ -581,7 +579,7 @@ label{
     .calendar{
         width: 400px;
         height: 300px;
-        background-position: top 143px right 63px;
+        background-position: top 45px right 250px;
         background-size: 70px;
     
     }
@@ -643,7 +641,7 @@ label{
     .calendar{
         width: 300px;
         height: 250px;
-        background-position: top 125px right 50px;
+        background-position: top 40px right 186px;
         background-size:50px;
     
     }
@@ -736,7 +734,7 @@ label{
     .calendar{
         width: 250px;
         height: 200px;
-        background-position: top 97px right 38px;
+        background-position: top 30px right 155px;
         background-size: 46px;
         margin-bottom: 20px;
     
@@ -829,7 +827,7 @@ label{
     .calendar{
         width: 240px;
         height: 150px;
-        background-position: top 68px right 39px;
+        background-position: top 18px right 136px;
         background-size: 42px;
         margin-bottom: 20px;
     }
@@ -839,6 +837,7 @@ label{
     }
     td {
         font-size: 12px;
+        text-align: center;
     }
     .girl_img_box {
         width:200px;
